@@ -1,0 +1,7 @@
+services:
+
+  # Defines a service which requires no parameter for its constructor.
+  amars_no_required_address_fields.addressformatsubscriber:
+    class: Drupal\amars_no_required_address_fields\EventSubscriber\AddressFormatSubscriber
+    tags:
+      - { name: event_subscriber }

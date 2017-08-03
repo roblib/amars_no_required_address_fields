@@ -1,0 +1,5 @@
+name: AMARS No Required Address Fields
+type: module
+description: 'Simple D8 module which removes the need for Address module address fields to be required fields.'
+package: Roblib
+core: 8.x
